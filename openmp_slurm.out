@@ -1,0 +1,63 @@
+\n-----------------openmp MATRIX 4000 1 thread------------------
+
+real	1m1.945s
+user	1m0.856s
+sys	0m0.497s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 2 thread------------------
+
+real	0m34.034s
+user	1m3.783s
+sys	0m0.365s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 5 thread------------------
+
+real	0m17.023s
+user	1m9.200s
+sys	0m0.456s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 10 thread------------------
+
+real	0m11.949s
+user	1m23.942s
+sys	0m0.538s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 20 thread------------------
+
+real	0m10.008s
+user	2m0.644s
+sys	0m0.740s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 40 thread------------------
+
+real	0m9.474s
+user	3m37.716s
+sys	0m1.183s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 56 thread------------------
+
+real	0m8.462s
+user	4m21.877s
+sys	0m1.578s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 70 thread------------------
+
+real	0m9.475s
+user	3m7.404s
+sys	0m5.010s
+\n
+SOLUTION IS CORRECT
+\n-----------------openmp MATRIX 4000 100 thread------------------
+
+real	0m11.595s
+user	4m39.057s
+sys	0m8.329s
+\n
+SOLUTION IS CORRECT

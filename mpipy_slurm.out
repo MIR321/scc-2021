@@ -1,0 +1,91 @@
+\n-----------------INIT MATRIX 4000x4000------------------
+\n-----------------mpi4py MATRIX 1------------------
+[1643722337.993126] [n01p518:31323:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+--------------------------------------------------------------------------
+A process has executed an operation involving a call to the
+"fork()" system call to create a child process.  Open MPI is currently
+operating in a condition that could result in memory corruption or
+other system errors; your job may hang, crash, or produce silent
+data corruption.  The use of fork() (or system() or other calls that
+create child processes) is strongly discouraged.
+
+The process that invoked fork was:
+
+  Local host:          [[38047,1],0] (PID 31323)
+
+If you are *absolutely sure* that your application will successfully
+and correctly survive a call to fork(), you may disable this warning
+by setting the mpi_warn_on_fork MCA parameter to 0.
+--------------------------------------------------------------------------
+0
+
+real	2m59.988s
+user	2m52.334s
+sys	0m1.013s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi4py MATRIX 2------------------
+[1643722530.068113] [n01p518:31662:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1643722530.068270] [n01p518:31663:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+--------------------------------------------------------------------------
+A process has executed an operation involving a call to the
+"fork()" system call to create a child process.  Open MPI is currently
+operating in a condition that could result in memory corruption or
+other system errors; your job may hang, crash, or produce silent
+data corruption.  The use of fork() (or system() or other calls that
+create child processes) is strongly discouraged.
+
+The process that invoked fork was:
+
+  Local host:          [[38240,1],0] (PID 31662)
+
+If you are *absolutely sure* that your application will successfully
+and correctly survive a call to fork(), you may disable this warning
+by setting the mpi_warn_on_fork MCA parameter to 0.
+--------------------------------------------------------------------------
+1
+[n01p518.cluster:31657] 1 more process has sent help message help-opal-runtime.txt / opal_init:warn-fork
+[n01p518.cluster:31657] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+0
+
+real	5m1.804s
+user	9m9.287s
+sys	0m44.211s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi4py MATRIX 5------------------
+[1643722845.176455] [n01p518:32074:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1643722845.176696] [n01p518:32070:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1643722845.176719] [n01p518:32071:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1643722845.177067] [n01p518:32073:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+[1643722845.177228] [n01p518:32072:0]         mxm.c:196  MXM  WARN  The 'ulimit -s' on the system is set to 'unlimited'. This may have negative performance implications. Please set the stack size to the default value (10240) 
+--------------------------------------------------------------------------
+A process has executed an operation involving a call to the
+"fork()" system call to create a child process.  Open MPI is currently
+operating in a condition that could result in memory corruption or
+other system errors; your job may hang, crash, or produce silent
+data corruption.  The use of fork() (or system() or other calls that
+create child processes) is strongly discouraged.
+
+The process that invoked fork was:
+
+  Local host:          [[37769,1],2] (PID 32072)
+
+If you are *absolutely sure* that your application will successfully
+and correctly survive a call to fork(), you may disable this warning
+by setting the mpi_warn_on_fork MCA parameter to 0.
+--------------------------------------------------------------------------
+2
+3
+1
+4
+[n01p518.cluster:32064] 4 more processes have sent help message help-opal-runtime.txt / opal_init:warn-fork
+[n01p518.cluster:32064] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+0
+
+real	6m30.312s
+user	30m43.789s
+sys	1m19.953s
+\n
+SOLUTION IS CORRECT
+

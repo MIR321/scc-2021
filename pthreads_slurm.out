@@ -1,0 +1,64 @@
+\n-----------------INIT MATRIX 4000x4000------------------
+\n-----------------PTHREAD MATRIX 4000 1 thread------------------
+
+real	1m3.929s
+user	1m3.387s
+sys	0m0.455s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 2 thread------------------
+
+real	0m36.718s
+user	1m7.452s
+sys	0m0.621s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 5 thread------------------
+
+real	0m22.691s
+user	1m20.822s
+sys	0m1.116s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 10 thread------------------
+
+real	0m21.722s
+user	2m35.590s
+sys	0m1.663s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 20 thread------------------
+
+real	0m19.760s
+user	4m11.792s
+sys	0m3.588s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 40 thread------------------
+
+real	0m16.718s
+user	4m32.810s
+sys	0m10.913s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 56 thread------------------
+
+real	0m14.579s
+user	4m20.027s
+sys	0m14.389s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 70 thread------------------
+
+real	0m14.786s
+user	3m32.124s
+sys	0m17.215s
+\n
+SOLUTION IS CORRECT
+\n-----------------PTHREAD MATRIX 4000 100 thread------------------
+
+real	0m18.598s
+user	2m44.557s
+sys	0m22.596s
+\n
+SOLUTION IS CORRECT

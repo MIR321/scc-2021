@@ -1,0 +1,43 @@
+\n-----------------INIT MATRIX 4000x4000------------------
+\n-----------------mpi MATRIX 1------------------
+
+real	1m0.836s
+user	1m0.101s
+sys	0m0.275s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi MATRIX 2------------------
+
+real	1m53.523s
+user	3m12.483s
+sys	0m33.820s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi MATRIX 5------------------
+
+real	1m55.744s
+user	8m3.111s
+sys	1m12.016s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi MATRIX 10------------------
+
+real	1m56.871s
+user	16m28.022s
+sys	2m31.498s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi MATRIX 20------------------
+
+real	1m59.317s
+user	35m28.802s
+sys	3m47.483s
+\n
+SOLUTION IS CORRECT
+\n-----------------mpi MATRIX 40------------------
+
+real	2m15.051s
+user	83m23.919s
+sys	4m52.932s
+\n
+SOLUTION IS CORRECT
